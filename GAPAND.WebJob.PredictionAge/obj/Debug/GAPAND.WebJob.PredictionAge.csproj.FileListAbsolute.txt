@@ -1,0 +1,12 @@
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.WebJob.PredictionAge\obj\Debug\GAPAND.WebJob.PredictionAge.csprojResolveAssemblyReference.cache
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.WebJob.PredictionAge\bin\Debug\GAPAND.WebJob.PredictionAge.exe.config
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.WebJob.PredictionAge\bin\Debug\GAPAND.WebJob.PredictionAge.exe
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.WebJob.PredictionAge\bin\Debug\GAPAND.WebJob.PredictionAge.pdb
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.WebJob.PredictionAge\bin\Debug\Microsoft.SharePoint.Client.dll
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.WebJob.PredictionAge\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.WebJob.PredictionAge\bin\Debug\Newtonsoft.Json.dll
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.WebJob.PredictionAge\bin\Debug\Newtonsoft.Json.xml
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.WebJob.PredictionAge\obj\Debug\GAPAND.WebJob.PredictionAge.exe
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.WebJob.PredictionAge\obj\Debug\GAPAND.WebJob.PredictionAge.pdb
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.WebJob.PredictionAge\bin\Debug\GAPAND.PCL.dll
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.WebJob.PredictionAge\bin\Debug\GAPAND.PCL.pdb

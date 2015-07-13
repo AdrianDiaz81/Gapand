@@ -1,0 +1,195 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#site-title img {
+    margin-right: 120px;
+}
+
+#site-title .title {
+   color: #fff;
+   text-decoration: none;
+   font-size: 21pt;
+   font-weight: 100;
+}
+
+#site-title .title:hover {
+    color: #fff;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.demo-section {
+    /*max-width: 860px;*/
+}
+#result-panel {
+    margin-left: 310px;
+    padding: 30px;
+}
+
+#listView {
+    /*padding: 10px 5px;*/
+    margin-bottom: -1px;
+    min-height: 510px;
+    background: none;
+    border: none;
+}
+
+.product {
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    width: 100px;
+    height: 160px;
+    margin: 5px;
+    padding: 8px;
+    background: #fff;
+}
+
+    .product img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .product h3 {
+        margin: 0;
+        padding: 3px 5px 0 0;
+        max-width: 96px;
+        overflow: hidden;
+        line-height: 1.1em;
+        font-size: .9em;
+        font-weight: normal;
+        text-transform: uppercase;
+        color: #999;
+    }
+
+    .product p {
+        visibility: hidden;
+    }
+
+    .product:hover p {
+        visibility: visible;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 8px;
+        margin: 0;
+        padding: 0;
+        line-height: 25px;
+        vertical-align: middle;
+        text-align: center;
+        color: #fff;
+        background-color: rgba(0,0,0,0.75);
+        transition: background .2s linear, color .2s linear;
+        -moz-transition: background .2s linear, color .2s linear;
+        -webkit-transition: background .2s linear, color .2s linear;
+        -o-transition: background .2s linear, color .2s linear;
+    }
+
+.k-listview:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#fieldlist li {
+    list-style: none;
+    padding-bottom: .7em;
+    text-align: left;
+}
+
+#fieldlist label {
+    display: block;
+    padding-bottom: .3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+}
+
+#fieldlist li.status {
+    text-align: center;
+}
+
+#fieldlist li .k-widget:not(.k-tooltip),
+#fieldlist li .k-textbox {
+    margin: 0 5px 5px 0;
+}
+
+.confirm {
+    padding-top: 1em;
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+
+#fieldlist {
+    padding: 40px;
+    float: left;
+    width: 300px;
+    background: #333;
+}
+
+    #fieldlist li input[type="checkbox"] {
+        margin: 0 5px 0 0;
+    }
+
+    #fieldlist li.accept {
+        color: #fff;
+    }
+    #fieldlist li.accept img {
+        width: 48px;
+        height: 48px;
+        margin: 8px;
+    }
+
+span.k-widget.k-tooltip-validation {
+    display;
+    inline-block;
+    width: 160px;
+    text-align: left;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: none;
+    box-shadow: none;
+    color: red;
+}
+
+.k-tooltip-validation .k-warning {
+    display: none;
+}
+
+.body-content > footer {
+    padding: 20px;
+    background: #333;
+    clear: both;
+    color: #fff;
+}

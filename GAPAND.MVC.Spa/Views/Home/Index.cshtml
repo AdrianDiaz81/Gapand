@@ -1,0 +1,95 @@
+﻿@{
+    ViewBag.Title = "Gapand";
+}
+
+<div id="minion-overlay" style="display: none; position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 100; background: rgba(0,0,0,0.5); padding: 12% 35%;">
+    <img src="~/Content/images/minions/minion-loading.gif" />
+</div>
+
+<div id="example" class="demo-section k-header" ng-app="GapandApp">
+    <div ng-controller="GapandCtrl">
+        <div id="tickets">
+            <form kendo-validator="validator" ng-submit="validate($event)">
+                <ul id="fieldlist">
+                    <li>
+                        <label for="fullname" class="required">Name</label>
+                        <input type="text" id="fullname" name="fullname" class="k-textbox" placeholder="Full name" style="width: 220px;" ng-model="fullName" />
+                    </li>
+
+                    <li>
+                        <label for="time">Sexo</label>
+                        <select kendo-dropdownlist name="time" id="time" style="width: 220px;" ng-model="Sexo">
+                            <option selected>--Sexo--</option>
+                            <option>Hombre</option>
+                            <option>Mujer</option>
+                            <option>Sin definir</option>
+                        </select>
+                    </li>
+
+                    <li>
+                        <label for="ini" class="required">Edad inicio</label>
+                        <input id="Ini" name="Ini" class="k-textbox" placeholder="Enter a digit number" style="width: 220px;" ng-model="edadIni" />
+                    </li>
+                    <li>
+                        <label for="tel" class="required">Edad Fin</label>
+                        <input id="tel" name="Fin" class="k-textbox" placeholder="Enter a digit number" style="width: 220px;" ng-model="edadFin" />
+                    </li>
+                    <li class="accept">
+                        <div>
+                            <input type="checkbox" name="Accept" ng-model="similar" /><img src="~/Content/images/face/angelina-jolie.jpg" alt="Angelina Jolie" /> Angelina
+                        </div>
+                        <div>
+                            <input type="checkbox" name="Accept" ng-model="similarChuck" /><img src="~/Content/images/face/chuck-norris.jpg" alt="Chuck Norris" /> Chuck Norris
+                        </div>
+                        <div>
+                            <input type="checkbox" name="Accept" ng-model="similarCarmen" /><img src="~/Content/images/face/carmen-mairena.jpg" alt="Carmen de Mairena" /> Carmen de Mairena
+                        </div>
+                    </li>
+
+                    <li class="confirm">
+                        <button class="k-button k-primary" type="submit" ng-show="showData()">Hey papayera!</button>
+                    </li>
+
+                </ul>
+            </form>
+        </div>
+        <div id="result-panel" class="demo-section k-header wide" ng-show="showGrid()">
+            <div kendo-list-view id="listView" k-data-source="source">
+                <div class="product" k-template>
+                    <img ng-src="{{dataItem.urlImage}}" alt=" {{dataItem.name}} image" />
+                    <h3>{{ dataItem.name }}</h3>
+                    <p>
+                            Age:{{ dataItem.age  }}<br />
+                            A: {{dataItem.similar}} <br />
+                            CN: {{dataItem.similarChuck}}<br />
+                            CM: {{dataItem.similarCarmen}}
+                    </p>
+                </div>
+            </div>
+            <div kendo-pager k-data-source="source"></div>
+        </div>
+
+        <script type="text/x-kendo-angular-template" id="template">
+        </script>
+
+
+    </div>
+</div>
+
+@section scripts {
+    @Scripts.Render("~/Scripts/jquery-1.10.2.min.js");
+    @Scripts.Render("~/Scripts/angular.js")
+    @Scripts.Render("~/Scripts/kendo.all.min.js")
+    @Scripts.Render("~/Scripts/app/gapand-controller.js")
+
+    <script>
+        $(function () {
+            var obj = document.createElement("audio");
+            obj.src = "/Content/sounds/banana.mp3";
+            obj.volume = 1;
+            obj.autoPlay = false;
+            obj.preLoad = true;
+            obj.play();
+        });
+    </script>
+}

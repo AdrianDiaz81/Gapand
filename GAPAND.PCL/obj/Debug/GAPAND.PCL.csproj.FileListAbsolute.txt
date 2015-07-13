@@ -1,0 +1,7 @@
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.PCL\bin\Debug\GAPAND.PCL.dll
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.PCL\bin\Debug\GAPAND.PCL.pdb
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.PCL\bin\Debug\Newtonsoft.Json.dll
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.PCL\bin\Debug\Newtonsoft.Json.xml
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.PCL\obj\Debug\GAPAND.PCL.dll
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.PCL\obj\Debug\GAPAND.PCL.pdb
+C:\Tfs\Demo\GAPAND\Test.Face\GAPAND.PCL\obj\Debug\GAPAND.PCL.csprojResolveAssemblyReference.cache
